@@ -12,7 +12,7 @@ Steps for building Jellybean:
     repo init -u https://github.com/AOKP/platform_manifest.git -b jb
     repo sync
 
-It might take a long time depending on your connection speed. On my standard cable connection it takes 1 hour, approximately.
+    It might take a long time depending on your connection speed. On my standard cable connection it takes 1 hour, approximately.
 
 3. Create a file called "local_manifest.xml" under the ".repo" folder in the root of the source directory and add this into the file:
 
@@ -44,7 +44,7 @@ It might take a long time depending on your connection speed. On my standard cab
     lunch aokp_evita-userdebug
     make -j#
     
-In the last command, change the "#" to the number of CPU Cores you have on your PC.
+    In the last command, change the "#" to the number of CPU Cores you have on your PC.
 
 10. If you want to make a flashable zip, then run the following command:
 
