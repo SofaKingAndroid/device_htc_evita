@@ -1,6 +1,6 @@
 <h1>HTC One XL Device Tree</h1>
 <h3>Made for the Android Open Kang Project</h3>
-==============================================================
+------------------------------------------------
 
 NOTE: The device trees are located in the other branches of this respository. Currently there are two other branches ("ics" = Android 4.0.x, "Ice Cream Sandwich" & "jb" = Android 4.1.x, "Jellybean")
 
