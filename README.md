@@ -15,7 +15,7 @@ Steps for building Jellybean:
     It might take a long time depending on your connection speed. On my standard cable connection it takes 1 hour, approximately.
 
 3. Create a file called "local_manifest.xml" under the ".repo" folder in the root of the source directory and add this into the file:
-
+<pre>
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
       <project path="kernel/htc/msm8960" name="htc-msm8960/android_kernel_htc_msm8960" remote="aokp" revision="android-msm-evita-3.0" />
@@ -23,7 +23,7 @@ Steps for building Jellybean:
       <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="aokp" revision="jellybean" />
       <project path="device/htc/evita" name="rohanmathur/aokp_device_htc_evita" remote="aokp" revision="jb" />
     </manifest>
-
+</pre>
 4. Re-sync the respositories by running:
 
     <pre>repo sync</pre>
