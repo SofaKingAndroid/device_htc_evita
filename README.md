@@ -1,4 +1,4 @@
-<h1>HTC One XL Device Tree</h1>
+<h1>HTC One XL Device Tree (AT&T HTC One X, evita)</h1>
 <h3>Made for the Android Open Kang Project</h3>
 ------------------------------------------------
 
