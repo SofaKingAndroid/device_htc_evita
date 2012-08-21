@@ -37,7 +37,12 @@ Steps for building Jellybean:
 
     <pre>add_lunch_combo aokp_evita-userdebug</pre>
     
-8. That should be it for getting everything set up. Now to start building...
+8. Go to device/htc/evita and run this command:
+
+    <pre>./setup-makefiles.sh</pre>
+    
+    Source should be downloaded and you should be all set to build now! Now onto building...
+    
 9. Run these commands, one after another:
 
     <pre>. build/envsetup.sh
