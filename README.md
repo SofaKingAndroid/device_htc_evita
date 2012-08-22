@@ -21,7 +21,7 @@ Steps for building Jellybean:
             <project path="kernel/htc/msm8960" name="htc-msm8960/android_kernel_htc_msm8960" remote="aokp" revision="android-msm-evita-3.0" />
             <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="aokp" revision="jellybean" />
             <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="aokp" revision="jellybean" />
-            <project path="device/htc/evita" name="rohanmathur/aokp_device_htc_evita" remote="aokp" revision="jb" />
+            <project path="device/htc/evita" name="rohanmathur/android_device_htc_evita" remote="aokp" revision="jb" />
         </manifest>
 
 4. Re-sync the respositories by running:
