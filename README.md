@@ -2,7 +2,7 @@
 <h3>Made for the Android Open Kang Project</h3>
 ------------------------------------------------
 
-NOTE: The device trees are located in the other branches of this respository. Currently there are two other branches ("ics" = Android 4.0.x, "Ice Cream Sandwich" and "jb" = Android 4.1.x, "Jellybean")
+NOTE: The device trees are located in the other branches of this respository. Currently there are two other branches ("ics" = Android 4.0.x, "Ice Cream Sandwich" and "jb" = Android 4.1.x, "Jellybean"). I am using this "master" branch as a place for the readme :)
 
 Steps for building Jellybean:
 
