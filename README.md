@@ -43,7 +43,7 @@ Steps for building Jellybean:
     
     Source should be downloaded and you should be all set to build now! Now onto building...
     
-9. Run these commands, one after another:
+9. Run these commands, one after another from the root of the AOKP Source:
 
     <pre>. build/envsetup.sh
     brunch evita</pre>
