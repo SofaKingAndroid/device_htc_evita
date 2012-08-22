@@ -29,11 +29,11 @@ Steps for building Jellybean:
     <pre>repo sync</pre>
 
 5. Go to device/htc/evita and move the file "evita.mk" to vendor/aokp/products
-6. Go to vendor/aokp/prodcts and add the following line to AndroidProducts.mk:
+6. Go to vendor/aokp/prodcts and add the following line to AndroidProducts.mk so that it is in alphabetical order by device codename:
 
     <pre>$(LOCAL_DIR)/evita.mk \</pre>
 
-7. Go to vendor/aokp/vendorsetup.sh and add the following line:
+7. Go to vendor/aokp/vendorsetup.sh and add the following line, again so that it is in alphabetical order by device codename:
 
     <pre>add_lunch_combo aokp_evita-userdebug</pre>
     
