@@ -42,17 +42,28 @@
   <!-- Different CPU speeds as reported in
        /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
   <array name="cpu.speeds">
-    <value>340000</value>
-    <value>4750000</value>
-    <value>640000</value>
-    <value>760000</value>
-    <value>860000</value>
-    <value>1000000</value>
-    <value>1100000</value>
-    <value>1200000</value>
-    <value>1300000</value>
-    <value>1400000</value>
-    <value>1500000</value>
+    <value>192000</value>
+    <value>384000</value>
+    <value>486000</value>
+    <value>540000</value>
+    <value>594000</value>
+    <value>648000</value>
+    <value>702000</value>
+    <value>756000</value>
+    <value>810000</value>
+    <value>864000</value>
+    <value>918000</value>
+    <value>972000</value>
+    <value>1026000</value>
+    <value>1080000</value>
+    <value>1134000</value>
+    <value>1188000</value>
+    <value>1242000</value>
+    <value>1296000</value>
+    <value>1350000</value>
+    <value>1404000</value>
+    <value>1458000</value>
+    <value>1512000</value>
   </array>
   <!-- Power consumption in suspend -->
   <item name="cpu.idle">7</item>
