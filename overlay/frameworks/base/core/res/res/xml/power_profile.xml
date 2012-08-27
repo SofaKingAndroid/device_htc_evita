@@ -65,33 +65,19 @@
     <value>1458000</value>
     <value>1512000</value>
   </array>
-  <!-- Power consumption in suspend -->
-  <item name="cpu.idle">7</item>
-  <!-- Power consumption due to wake lock held -->
-  <item name="cpu.awake">20</item>
-  <!-- Power consumption at different speeds -->
+  <item name="cpu.idle">2.8</item>
   <array name="cpu.active">
-      <value>100</value>
-      <value>115</value>
-      <value>130</value>
-      <value>145</value>
-      <value>160</value>
-      <value>175</value>
-      <value>190</value>
-      <value>205</value>
-      <value>220</value>
-      <value>235</value>
-      <value>250</value>
-      <value>265</value>
-      <value>280</value>
-      <value>295</value>
-      <value>310</value>
-      <value>325</value>
-      <value>340</value>
-      <value>355</value>
-      <value>370</value>
-      <value>385</value>
-      <value>395</value>
-      <value>400</value>
+    <value>66.6</value>
+    <value>84</value>
+    <value>90.8</value>
+    <value>96</value>
+    <value>105</value>
+    <value>111.5</value>
+    <value>117.3</value>
+    <value>123.6</value>
+    <value>134.5</value>
+    <value>141.8</value>
+    <value>148.5</value>
+    <value>168.4</value>
   </array>
 </device>
