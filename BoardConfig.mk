@@ -30,9 +30,6 @@
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := evita
 
-# Camera
-USE_CAMERA_STUB := true
-
 # Kernel
 BOARD_KERNEL_BASE := 0x80400000
 BOARD_KERNEL_PAGE_SIZE := 2048
@@ -45,9 +42,6 @@ TARGET_PREBUILT_KERNEL := device/htc/evita/prebuilt/kernel
 
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
-
-# Graphics
-TARGET_USES_OVERLAY := false
 
 # QCOM GPS
 #BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
