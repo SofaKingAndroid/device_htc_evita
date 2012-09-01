@@ -22,3 +22,10 @@ ro.nfc.port=I2C
 # UMS
 persist.sys.usb.config=mass_storage,adb
 ro.vold.umsdirtyratio=40
+
+# Hardware Info
+ro.device.cpu=Dual-core 1.5 GHz Krait Qualcomm MSM8960 Snapdragon
+ro.device.gpu=Adreno 225
+ro.device.rear_cam=8 MP, 3264x2448 pixels, autofocus, LED flash
+ro.device.front_cam=1.3 MP, 720p
+ro.device.screen_res=720x1280 pixels, 4.7 inches (~312 ppi pixel density)
