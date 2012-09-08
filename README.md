@@ -27,7 +27,7 @@ Steps for building Jellybean:
 
     <pre>repo sync</pre>
 
-5. Go to vendor/aokp/prodcts and add the following line to AndroidProducts.mk so that it is in alphabetical order by device codename:
+5. Go to vendor/aokp/products and add the following line to AndroidProducts.mk so that it is in alphabetical order by device codename:
 
     <pre>$(LOCAL_DIR)/evita.mk \</pre>
 
