@@ -18,19 +18,47 @@ Steps for building Jellybean:
 
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
-            <project path="vendor/htc" name="htc-msm8960/proprietary_vendor_htc" remote="aokp" revision="jellybean" />
+            <project path="vendor/htc" name="rohanmathur/vendor_htc" remote="aokp" revision="jb" />
             <project path="device/htc/msm8960-common" name="htc-msm8960/android_device_htc_msm8960-common" remote="aokp" revision="jellybean" />
-            <project path="device/htc/evita" name="rohanmathur/android_device_htc_evita" remote="aokp" revision="jb" />
+            <project path="device/htc/evita" name="rohanmathur/aokp_device_htc_evita" remote="aokp" revision="jb" />
         </manifest>
 
 4. Re-sync the respositories by running:
 
     <pre>repo sync</pre>
 
-5. Go to device/htc/evita and move the file "evita.mk" to vendor/aokp/products
-6. Go to vendor/aokp/prodcts and add the following line to AndroidProducts.mk so that it is in alphabetical order by device codename:
+5. Go to vendor/aokp/products and add the following line to AndroidProducts.mk so that it is in alphabetical order by device codename:
 
     <pre>$(LOCAL_DIR)/evita.mk \</pre>
+
+6. Make a file called "evita.mk" in the vendor/aokp/products folder and add the text below into it:
+
+<pre># Specify phone tech before including full_phone
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
+
+# Release name
+PRODUCT_RELEASE_NAME := evita
+
+TARGET_BOOTANIMATION_NAME := vertical-720x1280
+
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+
+# Inherit device configuration
+$(call inherit-product, device/htc/evita/device.mk)
+
+# Device naming
+PRODUCT_DEVICE := evita
+PRODUCT_NAME := aokp_evita
+PRODUCT_BRAND := htc
+PRODUCT_MODEL := One X
+PRODUCT_MANUFACTURER := HTC
+
+# Set build fingerprint / ID / Product Name etc.
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_evita BUILD_FINGERPRINT=cingular_us/evita/evita:4.1.1/JRO03H/54373.1:user/test-keys PRIVATE_BUILD_DESC="1.85.502.1 CL54373 test-keys" BUILD_NUMBER=47741
+
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip </pre>
 
 7. Go to vendor/aokp/vendorsetup.sh and add the following line, again so that it is in alphabetical order by device codename:
 
