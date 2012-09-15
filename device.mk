@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     device/htc/evita/modules/qcedev.ko:/system/lib/modules/qcedev.ko \
     device/htc/evita/modules/qcrypto.ko:/system/lib/modules/qcrypto.ko \
     device/htc/evita/modules/scsi_wait_scan.ko:/system/lib/modules/scsi_wait_scan.ko \
+    device/htc/evita/modules/radio-iris-transport.ko:/system/lib/modules/radio-iris-transport.ko \
     device/htc/evita/modules/prima_wlan.ko:/system/lib/modules/prima_wlan.ko 
 
 # Permissions
