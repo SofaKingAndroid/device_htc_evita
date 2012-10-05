@@ -102,14 +102,6 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
-# Kernel modules
-PRODUCT_COPY_FILES += \
-    device/htc/evita/modules/qce40.ko:/system/lib/modules/qce40.ko \
-    device/htc/evita/modules/qcedev.ko:/system/lib/modules/qcedev.ko \
-    device/htc/evita/modules/qcrypto.ko:/system/lib/modules/qcrypto.ko \
-    device/htc/evita/modules/scsi_wait_scan.ko:/system/lib/modules/scsi_wait_scan.ko \
-    device/htc/evita/modules/radio-iris-transport.ko:/system/lib/modules/radio-iris-transport.ko
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
