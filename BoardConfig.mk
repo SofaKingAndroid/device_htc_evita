@@ -42,6 +42,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
 TARGET_KERNEL_CONFIG := elite_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
+
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
 
