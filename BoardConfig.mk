@@ -30,15 +30,11 @@
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := evita
 
-# Assert
+# Assert		
 TARGET_OTA_ASSERT_DEVICE := evita
 
 # Kernel
 TARGET_KERNEL_CONFIG := elite_defconfig
-TARGET_KERNEL_SOURCE := kernel/htc/msm8960
-
-# Arch
-TARGET_ARCH := arm
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
