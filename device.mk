@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/evita
 
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \
-    fstab.elite \
+    fstab.qcom \
     init.target.rc
 
 # NFCEE access control
@@ -71,6 +71,10 @@ PRODUCT_COPY_FILES += \
     device/htc/evita/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
     device/htc/evita/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     device/htc/evita/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc
+
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/htc/evita/rootdir/etc/fstab.qcom:recovery/root/fstab.qcom
 
 # NFC
 PRODUCT_PACKAGES += \
