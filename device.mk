@@ -25,7 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/evita
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.target.rc
+    init.target.rc \
+    remount.qcom
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
