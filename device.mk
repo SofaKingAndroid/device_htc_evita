@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/htc/s4-common/s4.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/htc/evita/overlay
-DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/evita
+DEVICE_PACKAGE_OVERLAYS += vendor/ska/overlay/evita
 
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \

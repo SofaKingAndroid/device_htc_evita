@@ -83,6 +83,10 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/evita/recovery/kernel
 TARGET_RECOVERY_FSTAB := device/htc/evita/rootdir/etc/fstab.qcom
 
+# Flags for Krait CPU / tune for cortex-a9
+COMMON_GLOBAL_CFLAGS += -D__ARM_USE_PLD -D__ARM_CACHE_LINE_SIZE=64
+TARGET_EXTRA_CFLAGS := -mcpu=cortex-a9 -mtune=cortex-a15
+
 # TWRP
 DEVICE_RESOLUTION := 720x1280
 BOARD_HAS_NO_REAL_SDCARD := true
