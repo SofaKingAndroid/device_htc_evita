@@ -30,3 +30,6 @@ ro.device.gpu=Adreno 225
 ro.device.rear_cam=8 MP, 3264x2448 pixels, autofocus, LED flash
 ro.device.front_cam=1.3 MP, 720p
 ro.device.screen_res=720x1280 pixels, 4.7 inches (~312 ppi pixel density)
+
+# HW_Keys
+qemu.hw.mainkeys=1
