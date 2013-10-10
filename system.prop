@@ -32,4 +32,4 @@ ro.device.front_cam=1.3 MP, 720p
 ro.device.screen_res=720x1280 pixels, 4.7 inches (~312 ppi pixel density)
 
 # HW_Keys
-qemu.hw.mainkeys=1
+#qemu.hw.mainkeys=1
